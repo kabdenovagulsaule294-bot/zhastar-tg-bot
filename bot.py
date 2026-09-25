@@ -17,8 +17,7 @@ async def fallback(message: Message) -> None:
 
 
 async def main() -> None:
-    load_dotenv(Path(__file__).resolve().with_name(".env"), override=False)
-    token = (os.getenv("BOT_TOKEN") or "").strip()
+    token ="8868788199:AAEc609KJfk7_XSDJtAmyxmaCMPReZuOkZc"
     if not token or token == "PASTE_YOUR_BOT_TOKEN_HERE":
         raise SystemExit("Укажите BOT_TOKEN в файле .env рядом с bot.py или в окружении.")
     dp = Dispatcher()
