@@ -78,7 +78,7 @@ async def fallback(message: Message) -> None:
 
 
 async def main() -> None:
-    token = (os.getenv("BOT_TOKEN") or "").strip()
+    token = "8868788199:AAEc609KJfk7_XSDJtAmyxmaCMPReZuOkZc"
     if not token:
         raise SystemExit("Задайте переменную окружения BOT_TOKEN перед запуском.")
     dp = Dispatcher()
